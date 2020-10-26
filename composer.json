@@ -1,0 +1,29 @@
+{
+    "name": "versalle/data-object",
+    "description": "A simple data object to allow for dynamic properties",
+    "type": "library",
+    "licence": "MIT",
+    "authors": [
+        {
+            "name": "Andrew Versalle",
+            "email": "andrew.versalle@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "7.2.* || 7.3.* || 7.4.*"
+    },
+    "require-dev": {},
+    "autoload": {
+        "psr-4": {
+            "Versalle\\Domain\\DataObject\\": "src/"
+        }
+    },
+    "autoload-dev": {},
+    "config": {
+        "platform": {
+            "php": "7.2.24"
+        },
+        "sort-packages": true
+    },
+    "scripts": {}
+}
