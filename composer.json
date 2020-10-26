@@ -12,7 +12,9 @@
     "require": {
         "php": "7.2.* || 7.3.* || 7.4.*"
     },
-    "require-dev": {},
+    "require-dev": {
+        "roave/security-advisories": "dev-latest"
+    },
     "autoload": {
         "psr-4": {
             "Versalle\\Domain\\DataObject\\": "src/"
