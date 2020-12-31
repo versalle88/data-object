@@ -21,7 +21,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Versalle\\Domain\\DataObject\\": "src/"
+            "Versalle\\Domain\\": "src/"
         }
     },
     "autoload-dev": {},
