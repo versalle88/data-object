@@ -31,5 +31,11 @@
         },
         "sort-packages": true
     },
-    "scripts": {}
+    "scripts": {
+        "test": [
+            "behat",
+            "phpspec run",
+            "psalm"
+        ]
+    }
 }
